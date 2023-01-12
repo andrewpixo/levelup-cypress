@@ -1,0 +1,32 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean:screenshots": "npx cypress/screenshots/*",
+    "clean:video": "npx rimraf cypress/videos/*",
+    "lint": "npx tslint -c tslint.json './cypress/**/*.ts'",
+    "open": "npx cypress open",
+    "pretty": "npx prettier --no-config './**/*.{ts,js}' --write",
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "cypress": "^12.3.0",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.4.2",
+    "tsify": "^5.0.4",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "cypress-plugin-tab": "^1.0.5",
+    "prettier": "^2.8.2"
+  }
+}
