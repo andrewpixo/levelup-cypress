@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: levelup-cypress
+  annotations:
+    github.com/project-slug: andrewpixo/levelup-cypress
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Me!
