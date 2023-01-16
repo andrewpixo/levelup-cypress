@@ -1,0 +1,1 @@
+I'm some documentation in the `cypress` folder!
