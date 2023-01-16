@@ -1,0 +1,7 @@
+site_name: "example_cypress_docs"
+
+nav:
+  - Home: readme.md
+
+plugins:
+  - techdocs-core
