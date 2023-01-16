@@ -4,6 +4,7 @@ metadata:
   name: levelup-cypress
   annotations:
     github.com/project-slug: andrewpixo/levelup-cypress
+    backstage.io/techdocs-ref: https://github.com/andrewpixo/levelup-cypress
   links:
     - url: http://localhost:4200
       title: Frontend
